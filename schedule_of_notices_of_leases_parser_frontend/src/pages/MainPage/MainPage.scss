@@ -1,0 +1,104 @@
+$primary-color: yellow;
+@import '~loaders.css/src/animations/pacman.scss';
+.main-page {
+    padding-top: 10vh;
+
+    .pdf-button {
+        position: relative;
+        margin-left: 6%;
+        margin-top: 1%;
+        color: transparent;
+        
+        &::file-selector-button {
+            background-color: #F64C72;
+            border: none;
+            padding: 5% 10%;
+            border-radius: 50px;
+            font-size: 16px;
+            font-size: 1.2vw;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 8%;
+
+            &:hover {
+                background-color: #fca300;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .file-label {
+        display: none;
+    }
+
+    h1 {
+        display: inline;
+        border-bottom: 3px dashed lightskyblue;
+    }
+
+    h2 {
+        margin-top: 8.5%;
+        color: lightskyblue;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .go-button {
+        background-color: lime;
+        height: 120px;
+        width: 125px;
+        border-radius: 50%;
+        border: none;
+        color: black;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 37px;
+        margin-top: 5%;
+        border: 2px black solid;
+
+        &:hover {
+            cursor: pointer;
+            background-color: black;
+            color: lime;
+            border: 1px lightblue solid;
+        }
+    }
+
+    .loader-active {
+        display: block;
+        position: absolute;
+        left: 49%;
+        top: 48%;
+        margin: auto;
+    }
+
+    .json-view {
+        max-height: 65vh;
+        max-width: 65vw;
+        margin-left: 17.5vw;
+        margin-top: 5vh;
+        border: 1px white solid;
+        overflow: auto;
+        text-align: left;
+        border: 1px #268bd2 solid;
+    }
+
+    .download-button {
+        background-color: #F64C72;
+            border: none;
+            padding: 18px 30px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-size: 1.2vw;
+            font-weight: bold;
+            color: white;
+            margin-top: 20px;
+
+            &:hover {
+                background-color: #fca300;
+                cursor: pointer;
+            }
+    }
+}
