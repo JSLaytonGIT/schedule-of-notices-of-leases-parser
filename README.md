@@ -1,10 +1,10 @@
 How to run -\
 \
-Frontend -\
+Frontend -
 - cd schedule_of_notices_of_leases_parser_frontend\
 - npm start\
 \
-Backend -\
+Backend -
 - python app.py\
 
 
