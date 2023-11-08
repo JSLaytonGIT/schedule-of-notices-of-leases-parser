@@ -5,7 +5,7 @@ Frontend -
 - npm start\
 \
 Backend -
-- python app.py\
+- python app.py
 
 
 
