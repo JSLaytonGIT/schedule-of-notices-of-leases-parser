@@ -1,0 +1,5 @@
+from schedule_of_notices_of_leases_parser import schedule_of_notices_of_leases_parser
+
+pdf_path = './test_pdfs/Official_Copy_Register_EGL363613.pdf'
+extracted_text = schedule_of_notices_of_leases_parser(pdf_path)
+print(extracted_text)
