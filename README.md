@@ -10,4 +10,4 @@ Backend -
 
 
 
-User can also use testRun.py to run the parser of a test pdf provided in the folder 'test_pdfs'.
+User can also use testRun.py to run the parser, which will run on any schedule notices of leases pdf they put in the folder 'test_pdfs'. The result will appear as 'schedule_of_notices_of_leases.json' in the root folder.
