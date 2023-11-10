@@ -1,7 +1,8 @@
 How to run -\
 \
 Frontend -
-- cd schedule_of_notices_of_leases_parser_frontend\
+- cd schedule_of_notices_of_leases_parser_frontend
+- npm i
 - npm start\
 \
 Backend -
